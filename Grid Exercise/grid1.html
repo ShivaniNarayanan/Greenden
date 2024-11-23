@@ -1,0 +1,103 @@
+<style>
+    .container{
+        display: grid;
+        grid-template-rows: 1fr 3fr 1fr;
+        background-color: rgb(190, 232, 248);
+        
+        padding: 20px;
+    }
+    .header{
+        background-color: rgb(111, 246, 219);
+        padding: 2px;
+        color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        margin-bottom: 20px;
+       
+    }
+    .footer{
+        background-color:rgb(111, 246, 219);
+        padding: 5px;
+        color: white;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        margin: 5px;
+        margin-bottom: 20px;
+    }
+
+    .middle{
+        padding: 5px;
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+        
+        
+    }
+    .aside{
+        margin: 20px;
+        background-color: rgb(51, 236, 51);
+        height: 300px;
+        width: 200px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        color: white;
+    }
+    
+    .Two{
+        background-color: orange;
+        color: white;
+        grid-template-rows: 2fr 2fr;
+        display: grid;
+        
+
+    }
+    
+    .article{
+        display: grid;
+        justify-content:;
+        align-items: center;
+        padding-bottom: 10px;
+    }
+    
+    .images{
+       
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        margin-left: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        
+        
+    }
+    .Image{
+        background-color: rgb(245, 184, 72);
+        margin-left: 20px;
+        margin-right: 20px;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+
+    }
+  
+</style>
+<div class="container">
+    <div class="header">Header</div>
+    <div class="middle">
+        <div class="One">
+            <div class="aside"> Aside</div>
+        </div>
+        <div class="Two">
+            <div class="article">Article</div>
+            <div class="images">
+                <div class="Image">Image</div>
+                <div class="Image">Image</div>
+                <div class="Image">Image</div>
+            </div>
+            
+        </div>
+    </div>
+    <div class="footer">Footer</div>
+</div>
